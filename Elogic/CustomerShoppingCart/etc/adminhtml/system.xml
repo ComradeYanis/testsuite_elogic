@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customer">
+            <group id="shopping_cart_export" translate="label" type="text" sortOrder="200" showInDefault="1" showInStore="1" showInWebsite="1">
+                <label>Shopping Cart Export</label>
+                <field id="enable_status" translate="label comment" type="select" sortOrder="1" showInDefault="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>By enabling thins you allowing customer download shopping cart in csv format</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

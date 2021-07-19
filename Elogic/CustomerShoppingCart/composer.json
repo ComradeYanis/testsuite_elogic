@@ -1,0 +1,14 @@
+{
+    "name": "elogic/customershoppingcart",
+    "description": "module for export customer shopping cart",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "elogic",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    }
+}
